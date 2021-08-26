@@ -17,7 +17,7 @@ input[type="text"] {
     border: 5px dotted pink;
 }
 input[type="email"] {
-    border: 5px dotted pink;
+    border: 5px dotted pink; background-color: #808080;
 }
 .first {
     background-color: #fff;
@@ -28,19 +28,16 @@ input[type="email"] {
 div>p {
     font-size: 30px;
 }
-input[type="email"] {
-    background-color: #808080;
-}
-div:nth-of-type(3) p {
+div:nth-child(5) p {
     background-color: hotpink;
 }
-div:nth-of-type(3) p:nth-of-type(2) {
+div:nth-child(5) > p:nth-of-type(2) {
     border: 7px solid rgb(255, 255, 255);
 }
-div:nth-of-type(3) p>em {
-    font-size: 25px;
+div:nth-child(5) p em {
+    font-size: 25px; color: seashell;
 }
-input[type="checked"] {
+input[type="checkbox"]:checked {
     margin-left: 40px;
 }
 label {
